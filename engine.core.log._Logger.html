@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Logger (engine.core.log.Logger)</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js" type="text/javascript"></script>
+
+	
+	<link href="search-results.html" rel="prefetch" />
+</head>
+<body>
+	<div id="page-header">
+		<div id="logotype">
+		<span>Documentation</span>
+		<nav>
+			<a href="https://github.com/LunaTheFoxgirl/km-engine-base-pl">Kitsunebi Games Engine for VTuber Potluck</a>
+		</nav>
+		</div>
+
+		<form action="search-docs.html" id="search">
+			<input name="searchTerm" placeholder="Find a symbol name..." type="search" />
+			<input type="submit" value="Go" />
+		</form>
+	</div>
+	<div id="page-body">
+		<div id="page-content">
+		<h1>Logger</h1><div class="breadcrumbs"><a class="breadcrumb" href="engine.html">engine</a> <a class="breadcrumb" href="engine.core.html">core</a> <a class="breadcrumb" href="engine.core.log.html">log</a> </div><div><div class="documentation-comment synopsis"><div><p>A logger</p></div></div></div><div class="annotated-prototype"><div class="aggregate-prototype"><div class="attributes"></div><span class="builtin-type">class</span> Logger  {<div class="aggregate-member"><a href="engine.core.log._Logger.log_To_File.html"><div class="attributes"></div><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">logToFile</span>;</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.this.html"><span class="lang-feature name">this</span>(bool logToFile, string logFile);</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.~this.html"><span class="lang-feature name">~this</span>();</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.info.html"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">info</span>(string sender, string text, T fmt);</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.warn.html"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">warn</span>(string sender, string text, T fmt);</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.error.html"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">error</span>(string sender, string text, T fmt);</a></div><div class="aggregate-member"><a href="engine.core.log._Logger.fatal.html"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">fatal</span>(string sender, string text, T fmt);</a></div>}</div></div><h2 id="constructors"><a class="header-anchor" href="#constructors">Constructors</a></h2><dl class="member-list constructors"><dt><a href="engine.core.log._Logger.this.html">this</a><div class="simplified-prototype" style="max-width: 39ch;"><span class="lang-feature name">this</span>(bool logToFile, string logFile)</div></dt><dd><div><p>Creates a new logger</p></div></dd></dl><h2 id="destructor"><a class="header-anchor" href="#destructor">Destructor</a></h2><dl class="member-list"><dt><a href="engine.core.log._Logger.~this.html">~this</a><div class="simplified-prototype" style="max-width: 7ch;"><span class="lang-feature name">~this</span>()</div></dt><dd><div><p>Closes the logger and its attachment to the log file</p></div></dd></dl><h2 id="members"><a class="header-anchor" href="#members">Members</a></h2><h3 class="member-list-header hide-from-toc" id="function"><a class="header-anchor" href="#function">Functions</a></h3><dl class="member-list native"><dt><a href="engine.core.log._Logger.error.html">error</a><div class="simplified-prototype" style="max-width: 49ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">error</span>(string sender, string text, T fmt)</div></dt><dd><div><p>Writes error to stderr</p></div></dd><dt><a href="engine.core.log._Logger.fatal.html">fatal</a><div class="simplified-prototype" style="max-width: 49ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">fatal</span>(string sender, string text, T fmt)</div></dt><dd><div><p>Writes a fatal error to stderr and quits the application with status -1</p></div></dd><dt><a href="engine.core.log._Logger.info.html">info</a><div class="simplified-prototype" style="max-width: 48ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">info</span>(string sender, string text, T fmt)</div></dt><dd><div><p>Write info log to stdout</p></div></dd><dt><a href="engine.core.log._Logger.warn.html">warn</a><div class="simplified-prototype" style="max-width: 48ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">warn</span>(string sender, string text, T fmt)</div></dt><dd><div><p>Write warning log to stdout</p></div></dd></dl><h3 class="member-list-header hide-from-toc" id="variable"><a class="header-anchor" href="#variable">Variables</a></h3><dl class="member-list native"><dt><a href="engine.core.log._Logger.log_To_File.html">logToFile</a><div class="simplified-prototype" style="max-width: 16ch;"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">logToFile</span>;</div></dt><dd><div><p>Whether to write logs to file</p></div></dd></dl><div></div></div>
+		<div id="page-nav"><a class="parent" href="engine.html">engine</a> <a class="parent" href="engine.core.html">core</a> <a class="parent" href="engine.core.log.html">log</a> 
+		<span class="type-separator">classes</span><ul><li><a class="class current" href="engine.core.log._Logger.html">Logger</a></li></ul></div>
+	</div>
+	<div id="page-footer">Page generated by <a href="https://github.com/adamdruppe/adrdox">adrdox</a></div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>ActionStack (engine.core.astack.ActionStack)</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js" type="text/javascript"></script>
+
+	
+	<link href="search-results.html" rel="prefetch" />
+</head>
+<body>
+	<div id="page-header">
+		<div id="logotype">
+		<span>Documentation</span>
+		<nav>
+			<a href="https://github.com/LunaTheFoxgirl/km-engine-base-pl">Kitsunebi Games Engine for VTuber Potluck</a>
+		</nav>
+		</div>
+
+		<form action="search-docs.html" id="search">
+			<input name="searchTerm" placeholder="Find a symbol name..." type="search" />
+			<input type="submit" value="Go" />
+		</form>
+	</div>
+	<div id="page-body">
+		<div id="page-content">
+		<h1>ActionStack</h1><div class="breadcrumbs"><a class="breadcrumb" href="engine.html">engine</a> <a class="breadcrumb" href="engine.core.html">core</a> <a class="breadcrumb" href="engine.core.astack.html">astack</a> </div><div><div class="documentation-comment synopsis"><div><p>A stack of actions performed in the game</p><p>Actions can be undone and redone.
+    Pushing a new action to the stack will overwrite actions past the current top cursor.</p></div></div></div><div class="annotated-prototype"><div class="aggregate-prototype"><div class="attributes"></div><span class="builtin-type">class</span> ActionStack (<div class="parameters-list toplevel"><div class="template-parameter-item parameter-item">	<span><span class="name" data-ident="ActionT">ActionT</span></span></div></div>) {<div class="aggregate-member"><a href="engine.core.astack._Action_Stack.push.html"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">push</span>(ActionT item);</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.get.html"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">get</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.undo.html"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">undo</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.redo.html"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">redo</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.clear.html"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">clear</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.empty.html"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">empty</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.can_Undo.html"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">canUndo</span>();</a></div><div class="aggregate-member"><a href="engine.core.astack._Action_Stack.can_Redo.html"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">canRedo</span>();</a></div>}</div></div><h2 id="members"><a class="header-anchor" href="#members">Members</a></h2><h3 class="member-list-header hide-from-toc" id="function"><a class="header-anchor" href="#function">Functions</a></h3><dl class="member-list native"><dt><a href="engine.core.astack._Action_Stack.can_Redo.html">canRedo</a><div class="simplified-prototype" style="max-width: 15ch;"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">canRedo</span>()</div></dt><dd><div><p>Returns true if there's any actions left to redo</p></div></dd><dt><a href="engine.core.astack._Action_Stack.can_Undo.html">canUndo</a><div class="simplified-prototype" style="max-width: 15ch;"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">canUndo</span>()</div></dt><dd><div><p>Returns true if there's any actions left to undo</p></div></dd><dt><a href="engine.core.astack._Action_Stack.clear.html">clear</a><div class="simplified-prototype" style="max-width: 13ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">clear</span>()</div></dt><dd><div><p>Clear the action stack</p></div></dd><dt><a href="engine.core.astack._Action_Stack.empty.html">empty</a><div class="simplified-prototype" style="max-width: 13ch;"><tt class="highlighted"><span class="type">bool</span></tt> <span class="name">empty</span>()</div></dt><dd><div><p>Gets whether the action stack is empty.</p></div></dd><dt><a href="engine.core.astack._Action_Stack.get.html">get</a><div class="simplified-prototype" style="max-width: 14ch;"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">get</span>()</div></dt><dd><div><p>Get the current top of the stack</p></div></dd><dt><a href="engine.core.astack._Action_Stack.push.html">push</a><div class="simplified-prototype" style="max-width: 28ch;"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">push</span>(ActionT item)</div></dt><dd><div><p>Push an action to the stack</p></div></dd><dt><a href="engine.core.astack._Action_Stack.redo.html">redo</a><div class="simplified-prototype" style="max-width: 15ch;"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">redo</span>()</div></dt><dd><div><p>Redo an action</p></div></dd><dt><a href="engine.core.astack._Action_Stack.undo.html">undo</a><div class="simplified-prototype" style="max-width: 15ch;"><tt class="highlighted"><span class="hid">ActionT</span></tt> <span class="name">undo</span>()</div></dt><dd><div><p>Undo an action</p></div></dd></dl><div></div></div>
+		<div id="page-nav"><a class="parent" href="engine.html">engine</a> <a class="parent" href="engine.core.html">core</a> <a class="parent" href="engine.core.astack.html">astack</a> 
+		<span class="type-separator">classes</span><ul><li><a class="class current" href="engine.core.astack._Action_Stack.html">ActionStack</a></li></ul></div>
+	</div>
+	<div id="page-footer">Page generated by <a href="https://github.com/adamdruppe/adrdox">adrdox</a></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>engine.game (engine.game)</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="style.css" rel="stylesheet" />
+        <script src="script.js" type="text/javascript"></script>
+
+	
+	<link href="search-results.html" rel="prefetch" />
+</head>
+<body>
+	<div id="page-header">
+		<div id="logotype">
+		<span>Documentation</span>
+		<nav>
+			<a href="https://github.com/LunaTheFoxgirl/km-engine-base-pl">Kitsunebi Games Engine for VTuber Potluck</a>
+		</nav>
+		</div>
+
+		<form action="search-docs.html" id="search">
+			<input name="searchTerm" placeholder="Find a symbol name..." type="search" />
+			<input type="submit" value="Go" />
+		</form>
+	</div>
+	<div id="page-body">
+		<div id="page-content">
+		<h1>engine.game</h1><div class="breadcrumbs"><a class="breadcrumb" href="engine.html">engine</a> </div><div><div class="documentation-comment synopsis"><div><p>Undocumented in source.</p></div></div></div><div class="annotated-prototype"></div><h2 id="members"><a class="header-anchor" href="#members">Members</a></h2><h3 class="member-list-header hide-from-toc" id="function"><a class="header-anchor" href="#function">Functions</a></h3><dl class="member-list native"><dt><a href="engine.game.curr_Time.html">currTime</a><div class="simplified-prototype" style="max-width: 18ch;"><tt class="highlighted"><span class="type">double</span></tt> <span class="name">currTime</span>()</div></dt><dd><div><p>Gets delta time</p></div></dd><dt><a href="engine.game.delta_Time.html">deltaTime</a><div class="simplified-prototype" style="max-width: 19ch;"><tt class="highlighted"><span class="type">double</span></tt> <span class="name">deltaTime</span>()</div></dt><dd><div><p>Gets delta time</p></div></dd><dt><a href="engine.game.fixed_Delta.html">fixedDelta</a><div class="simplified-prototype" style="max-width: 20ch;"><tt class="highlighted"><span class="type">double</span></tt> <span class="name">fixedDelta</span>()</div></dt><dd><div><p>Fixed timestep</p></div></dd><dt><a href="engine.game.km_Get_Viewport.html">kmGetViewport</a><div class="simplified-prototype" style="max-width: 23ch;"><tt class="highlighted"><span class="hid">vec2i</span></tt> <span class="name">kmGetViewport</span>()</div></dt><dd><div><p>Gets the size of the framebuffer</p></div></dd><dt><a href="engine.game.km_Set_Viewport.html">kmSetViewport</a><div class="simplified-prototype" style="max-width: 33ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">kmSetViewport</span>(vec2i size)</div></dt><dd><div><p>Resizes the game's viewport</p></div></dd><dt><a href="engine.game.prev_Time.html">prevTime</a><div class="simplified-prototype" style="max-width: 18ch;"><tt class="highlighted"><span class="type">double</span></tt> <span class="name">prevTime</span>()</div></dt><dd><div><p>Gets delta time</p></div></dd><dt><a href="engine.game.start_Game.html">startGame</a><div class="simplified-prototype" style="max-width: 37ch;"><tt class="highlighted"><span class="type">void</span></tt> <span class="name">startGame</span>(vec2i viewportSize)</div></dt><dd><div><p>Starts the game loop</p></div></dd></dl><h3 class="member-list-header hide-from-toc" id="variable"><a class="header-anchor" href="#variable">Variables</a></h3><dl class="member-list native"><dt><a href="engine.game.km_Border.html">kmBorder</a><div class="simplified-prototype" style="max-width: 27ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmBorder</span>;</div></dt><dd><div><p>Function run after the main rendering has happened, Used to draw borders for the gameplay</p></div></dd><dt><a href="engine.game.km_Cleanup.html">kmCleanup</a><div class="simplified-prototype" style="max-width: 28ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmCleanup</span>;</div></dt><dd><div><p>Function run when the game is to clean up</p></div></dd><dt><a href="engine.game.km_Fixed_Update.html">kmFixedUpdate</a><div class="simplified-prototype" style="max-width: 33ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmFixedUpdate</span>;</div></dt><dd><div><p>Fixed timestep updating</p></div></dd><dt><a href="engine.game.km_Init.html">kmInit</a><div class="simplified-prototype" style="max-width: 25ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmInit</span>;</div></dt><dd><div><p>Function run when the game is to initialize</p></div></dd><dt><a href="engine.game.km_Post_Update.html">kmPostUpdate</a><div class="simplified-prototype" style="max-width: 31ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmPostUpdate</span>;</div></dt><dd><div><p>Function run after updates and rendering of the game</p></div></dd><dt><a href="engine.game.km_Update.html">kmUpdate</a><div class="simplified-prototype" style="max-width: 27ch;"><tt class="highlighted"><span class="type">void</span> <span class="kwrd">function</span>()</tt> <span class="name">kmUpdate</span>;</div></dt><dd><div><p>Function run when the game is to update</p></div></dd></dl><div></div></div>
+		<div id="page-nav"><a class="parent" href="engine.html">engine</a> 
+		<span class="type-separator">modules</span><ul><li><a class="module" href="engine.audio.html">audio</a></li><li><a class="module" href="engine.config.html">config</a></li><li><a class="module" href="engine.core.html">core</a></li><li><a class="module current" href="engine.game.html">game</a></li><li><a class="module" href="engine.input.html">input</a></li><li><a class="module" href="engine.math.html">math</a></li><li><a class="module" href="engine.render.html">render</a></li><li><a class="module" href="engine.ui.html">ui</a></li></ul><span class="type-separator">functions</span><ul><li><a class="function" href="engine.close_Engine.html">closeEngine</a></li><li><a class="function" href="engine.init_Engine.html">initEngine</a></li></ul></div>
+	</div>
+	<div id="page-footer">Page generated by <a href="https://github.com/adamdruppe/adrdox">adrdox</a></div>
+</body>
+</html>
